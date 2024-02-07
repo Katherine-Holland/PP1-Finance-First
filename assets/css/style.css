@@ -1,0 +1,10 @@
+.container {
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+/* Add a Verdigris background color to the top navigation */
+.topnav {
+    background-color: #38A3A5;
+    overflow: hidden;
