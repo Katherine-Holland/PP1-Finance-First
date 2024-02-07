@@ -8,3 +8,14 @@
 .topnav {
     background-color: #38A3A5;
     overflow: hidden;
+}
+/* Style the links inside the navigation bar added font color of Rich Black*/
+.topnav a {
+    float: right;
+    display: block;
+    color: #051923;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
