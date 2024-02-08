@@ -8,6 +8,7 @@
 .topnav {
     background-color: #38A3A5;
     overflow: hidden;
+    box-shadow: 0 7px 7px #80ED99;
 }
 /* Style the links inside the navigation bar added font color of Rich Black*/
 .topnav a {
@@ -18,7 +19,7 @@
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Hind Madurai', sans-serif;
 }
 /* Change the color of links on hover */
 .topnav a:hover {
@@ -33,6 +34,9 @@
 /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
     display: none;
+}
+header {
+    font-family: 'Rubik', sans-serif;
 }
 h1 {
     font-family: 'Rubik', sans-serif;
