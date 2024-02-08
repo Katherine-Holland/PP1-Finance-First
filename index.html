@@ -25,11 +25,13 @@
     <div class="container">
         <!-- nav bar taken from w3schools https://www.w3schools.com/howto/howto_js_topnav_responsive.asp -->
         <div class="topnav" id="myTopnav">
-            <a href="#home" class="active">Home</a>
-            <a href="#resource">Resources</a>
-            <a href="#signup">Signup</a>
+            <a href="#"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
+            <a href="#"><i class="fa fa-book" aria-hidden="true"></i> Resources</a>
+            <a href="#"><i class="fa fa-child" aria-hidden="true"></i>Sign Up</a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                 <i class="fa fa-bars"></i>
+                
+        
             </a>
         </div>
         <!-- end nav bar -->
@@ -45,8 +47,9 @@
         </div>
         <div class="footer">
             <footer>
-                <p>Author: Katherine Weston</p>
-                <p><a href="mailto:katherine@financefirst.com">katherine@financefirst.com</a></p>
+                <ul>
+                    <li><a href="https://www.facebook.com/" target="_blank" rel= "noopener" aria-label="Visit our Facebook page (opens in a new window)"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                </ul>>
             </footer>
         </div>
     </div>
@@ -59,6 +62,7 @@
                 x.className = "topnav";
             }
         }
+        
     </script>
 </body>
 </html>
