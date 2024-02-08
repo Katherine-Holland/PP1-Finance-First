@@ -38,6 +38,8 @@
 
 header {
     font-family: 'Rubik', sans-serif;
+    position: "top-left";
+    padding: 0 4px 0;
 }
 h1 {
     font-family: 'Rubik', sans-serif;
