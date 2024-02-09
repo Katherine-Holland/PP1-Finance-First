@@ -18,7 +18,7 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 18px;
     font-family: 'Hind Madurai', sans-serif;
 }
 /* Change the color of links on hover */
@@ -54,7 +54,7 @@ header {
     background-color:#00ff0080;
     font-size:130%;
     position:absolute;
-    width: 30%;
+    width: 40%;
     min-height: 200px;
     padding: 7px 10px 10px 10px;
     overflow: hidden;
