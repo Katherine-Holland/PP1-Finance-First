@@ -41,7 +41,7 @@ header {
     position: "top-left";
     padding: 0 4px 0;
 }
-/* Hero image - tutorial from Love Running */
+/* Hero section - tutorial from Love Running */
 #hero {
     height: 400px;
     width: inherit;
@@ -49,8 +49,23 @@ header {
     background: url("../images/piggybank.webp") no-repeat center center/cover;
     position: relative;
 }
+
+#cover-text {
+    background-color:#00ff0080;
+    font-size:130%;
+    position:absolute;
+    width 60%
+    min-height: 200px;
+    padding: 10px;
+
+}
+
 h1 {
     font-family: 'Rubik', sans-serif;
+}
+
+h2, h3 {
+    font-family: 'Hind Madurai', sans-serif;
 }
 .main-content {
     background-color:white;
