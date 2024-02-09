@@ -58,7 +58,7 @@ header {
     min-height: 200px;
     padding: 7px 10px 10px 10px;
     overflow: hidden;
-    box-shadow: 7px 7px 7px #80ED99;
+    box-shadow: 0px 7px 7px #80ED99;
 
 }
 
@@ -72,6 +72,20 @@ h2, h3 {
 .main-content {
     background-color:white;
     font-family: 'Hind Madurai', sans-serif;
+}
+
+.wrapper {
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img {
+    padding: 20px;
+
+    overflow: hidden;
+    box-shadow: 0px 7px 7px #80ED99;
+    border-spacing: 30px;
 }
 
 .footer {
