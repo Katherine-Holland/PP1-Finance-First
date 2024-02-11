@@ -88,6 +88,13 @@ h2, h3 {
     align: center;
 }
 
+#photo-text {
+        text-align: center;
+        display: inline-block;
+        width: 50%;
+        padding-right: 10px;
+}
+
 .footer {
     background-color: #22577A;
     padding: 2rem;
