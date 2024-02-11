@@ -68,22 +68,20 @@ h1 {
 h2, h3 {
     font-family: 'Hind Madurai', sans-serif;
 }
-.main-content {
-    background-color:white;
-    font-family: 'Hind Madurai', sans-serif;
+
+#photos {
+    float:none
+        display: block;
+        text-align: center;
+        padding: 20px;
 }
 
-.wrapper {
-        display: flex;
-        flex-wrap: wrap:
-    }
-
-.wrapper img {
-        width: 50%;
-        margin: 2rem 2rem;
-        display: inline-block;
-        overflow: hidden;
-        box-shadow: 0 7px 7px #80ED99;
+#images img {
+    width:40%;
+    overflow: hidden;
+    box-shadow: 0 7px 7px #80ED99;
+    padding: 2rem;
+    align: center;
 }
 
 .footer {
