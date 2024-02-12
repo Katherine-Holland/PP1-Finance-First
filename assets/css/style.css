@@ -82,7 +82,9 @@ h2, h3 {
 
 .image-container {
     position: relative;
-    display: inline-block;
+    max width: 40%;
+    margin: 10px 10px;
+    padding 10px;
 }
 
 .photos-container {
@@ -162,5 +164,19 @@ h2, h3 {
         float: none;
         display: block;
         text-align: left;
+    }
+}
+/* Mobile responsiveness */
+@media screen and (max-width: 600px) {
+    .photos-container {
+        flex-direction: column;
+        /* Stack items vertically on smaller screens */
+        align-items: center;
+        /* Center items vertically */
+    }
+
+    .image-container {
+        max-width: 100%;
+        /* Allow images to take full width on smaller screens */
     }
 }
