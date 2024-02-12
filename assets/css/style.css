@@ -80,12 +80,32 @@ h2, h3 {
         padding: 20px;
 }
 
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.photos-container {
+    display: flex;
+    justify-content: space-around;
+    /* Adjust as needed */
+}
+
 #images img {
     width:40%;
     overflow: hidden;
     box-shadow: 0 7px 7px #80ED99;
     padding: 2rem;
     margin: 0 auto;
+}
+
+.image-text {
+    position: absolute;
+    top: 50%; /* Adjust as needed */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; /* Adjust text color based on your design */
+    text-align: center;
 }
 
 #photo-text {
