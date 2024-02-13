@@ -14,7 +14,7 @@
 .topnav a {
     float: right;
     display: block;
-    color: #051923;
+    color: #0e2536;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -29,7 +29,7 @@
 /* Add an active class to highlight the current page */
 .topnav a.active {
     background-color: #C7F9CC;
-    color: #051923;
+    color: #0e2536;
 }
 /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
@@ -40,6 +40,7 @@ header {
     font-family: 'Rubik', sans-serif;
     position: "top-left";
     padding: 0 4px 0;
+    color:#0e2536
 }
 /* Hero section - tutorial from Love Running */
 #hero {
@@ -51,14 +52,16 @@ header {
 }
 
 #cover-text {
-    background-color:#00ff0080;
+    background-color:#00ff4872;
     font-size:130%;
+    color:#0e2536;
     position:absolute;
     width: 40%;
     min-height: 200px;
     padding: 7px 10px 10px 10px;
     overflow: hidden;
-    box-shadow: 0px 7px 7px #80ED99;
+    border-radius: 11px;
+    box-shadow: 0px 7px 7px #00ff4872;
 }
 
 #main-header {
@@ -69,16 +72,18 @@ h1 {
     font-family: 'Rubik', sans-serif;
 }
 
-h2, h3 {
+h2, h3, p {
     font-family: 'Hind Madurai', sans-serif;
 }
 
 .image-container {
     position: relative;
     max-width: 40%;
-    margin: 10px 10px;
-    padding: 10px;
+    margin: 50px 10px;
+    padding: 30px;
     overflow: hidden;
+    border: 2px solid #00ff4872;
+    box-shadow: 0px 3px 3px #00ff4872;
 }
 
 .photos-container {
@@ -89,17 +94,20 @@ h2, h3 {
 
 .image-text {
     position: absolute;
-    top: 50%; 
+    top: 75%; 
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    background-color:rgba(255, 255, 255, 0.814);
+    margin: 10px;
+    background-color:rgba(255, 255, 255, 0.883);
+    border-radius: 10px;
 }
 
 .footer {
     background-color: #22577A;
     padding: 2rem;
     font-family: 'Rubik', sans-serif;
+    color:rgb(98, 122, 134);
 }
 /*footer social networks- taken from the Love Running tutorial*/
 #social-networks {
