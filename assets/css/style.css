@@ -75,9 +75,9 @@ h2, h3 {
 
 .image-container {
     position: relative;
-    max width: 40%;
+    max-width: 40%;
     margin: 10px 10px;
-    padding 10px;
+    padding: 10px;
     overflow: hidden;
 }
 
