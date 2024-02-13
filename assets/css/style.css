@@ -86,6 +86,14 @@ h2, h3, p {
     box-shadow: 0px 3px 3px #00ff4872;
 }
 
+button {
+
+    font-size:larger;
+    color:#22577A;
+    border-radius:20px;
+    border-color:#0e2536 4;
+}
+
 .photos-container {
     display: flex;
     justify-content: space-around;
@@ -94,13 +102,14 @@ h2, h3, p {
 
 .image-text {
     position: absolute;
-    top: 75%; 
+    top: 70%; 
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     margin: 10px;
     background-color:rgba(255, 255, 255, 0.883);
     border-radius: 10px;
+    padding: 5px;
 }
 
 .footer {
