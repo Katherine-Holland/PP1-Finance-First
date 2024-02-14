@@ -118,14 +118,15 @@ button {
 
 .footer {
     background-color: #22577A;
-    padding: 2rem;
+    padding: 1rem;
     font-family: 'Rubik', sans-serif;
+    text-align:center;
     color:rgb(98, 122, 134);
 }
 /*footer social networks- taken from the Love Running tutorial*/
 #social-networks {
     text-align: center;
-    padding: 20px 0;
+    padding: 10px 0;
     display: flex;
     justify-content: space-evenly; 
     list-style-type: none;
