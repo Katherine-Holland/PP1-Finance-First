@@ -76,6 +76,7 @@ h2, h3, p {
     font-family: 'Hind Madurai', sans-serif;
 }
 
+
 .image-container {
     position: relative;
     max-width: 40%;
@@ -84,19 +85,23 @@ h2, h3, p {
     overflow: hidden;
     border: 2px solid #00ff4872;
     box-shadow: 0px 3px 3px #00ff4872;
-}
+} 
 
 button {
-
     font-size:larger;
-    color:#22577A;
+    color:white;
     border-radius:20px;
-    border-color:#0e2536 4;
+    border-color:#0e2536;
+    background-color:#38A3A5;
+    align-items: center;
+    transform: translate(80%, 70%);
+    margin:10px;
 }
 
 .photos-container {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 
@@ -106,7 +111,6 @@ button {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    margin: 10px;
     background-color:rgba(255, 255, 255, 0.883);
     border-radius: 10px;
     padding: 5px;
