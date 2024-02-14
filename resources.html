@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google fonts import Rubik -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Google font import Hind Madur -->
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400&display=swap" rel="stylesheet">
+    <!-- Meta tags -->
+    <meta name="description" content="Finance First helps parents learn how to invest for their child's future">
+    <meta name="keywords" content="Finance, banking, investing, junior isa, junior sipp">
+    <meta name="author" content="Katherine Weston">
+    <title>Finance First - Homepage</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Favicon tutorial from Love Running module-->
+    <link rel="icon" type="image/png" sizes="300x300" href="assets/favicon/faviconlogo.png">
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- nav bar taken from w3schools https://www.w3schools.com/howto/howto_js_topnav_responsive.asp -->
+        <div class="topnav" id="myTopnav">
+            <a href="index.html"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
+            <a href="resources.html" class="active"><i class="fa fa-book" aria-hidden="true"></i> Resources</a>
+            <a href="signup.html"><i class="fa fa-child" aria-hidden="true"></i>Sign Up</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i></a>
+            <header a href="index.html">
+                <h1>Finance First</h1>
+            </header>
+        </div>
+        <!-- end nav bar -->
+        <div class="main-content">
+            <section id="hero">
+                <div id="cover-text">
+                    <h2>Invest in their future</h2>
+                    <h3>Saving for children made simple</h3>
+                </div>
+            </section>
+
+            <div id="main-header">
+                <h2>Choose your guide</h2>
+                <p>Simple and easy to follow guides to help you decide how to invest for your child's future.</p>
+            </div>
+            <!-- Horizontal guides bar -->
+            <div class="photos-container">
+                <div class="image-container">
+                    <img src="assets/images/plant.webp" alt="plant growing in a pot of money">
+                    <div class="image-text">
+                        <h3>What is a Junior ISA?</h3>
+                        <p>A great way to save tax-free for your child</p>
+                    </div>
+                    <div>
+                        <button>Junior ISA Guide</button>
+                    </div>
+
+                </div>
+
+                <div class="image-container">
+                    <img src="assets/images/block.webp" alt="child playing with stacking blocks">
+                    <div class="image-text">
+                        <h3>Junior SIPPS</h3>
+                        <p>It's not too early to be thinking about your child's pension</p>
+                    </div>
+                    <div>
+                        <button>Junior SIPP Guide</button>
+                    </div>
+                </div>
+            </div>
+            <!-- end of Horizontal guides bar -->
+            <div class="footer">
+                <footer>
+                    <!-- Code taken from the Love Running tutorial -->
+                    <ul id="social-networks">
+                        <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                                aria-label="Visit our Facebook page (opens in a new window)"><i
+                                    class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.twitter.com/" target="_blank" rel="noopener"
+                                aria-label="Visit our Twitter page (opens in a new window)"><i
+                                    class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+                    </ul>
+                    <p>Copyright © Finance First 2024</p>
+                    <p>Disclaimer: <em>This site is for educational purposes and is not financial advice.</em></p>
+                </footer>
+            </div>
+        </div>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+
+        </script>
+</body>
+
+</html>
