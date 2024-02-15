@@ -1,3 +1,8 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
 .container {
     width: 100%;
     max-width: 1080px;
@@ -87,10 +92,11 @@ h2, h3, h4, p {
     box-shadow: 0px 3px 3px #00ff4872;
 } 
 
-.photos-container {
+.guides-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
+  margin:10px;
   
 }
 
