@@ -116,7 +116,6 @@ h2, h3, h4, p {
     background-color:rgba(255, 255, 255, 0.883);
     border-radius: 10px;
     padding: 5px;
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
 }
 
 .guide-button {
@@ -138,11 +137,13 @@ h2, h3, h4, p {
   flex: column;
   width: 50%;
   margin-left:20px;
+  height:100%;
+  padding: 10px;
 }
 
 .footer {
     background-color: #22577A;
-    min-height: 100px;
+    padding-top: 20px;
     padding: 1rem;
     font-family: 'Rubik', sans-serif;
     text-align:center;
