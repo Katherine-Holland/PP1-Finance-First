@@ -135,16 +135,19 @@ h2, h3, h4, p {
 }
 .section-text {
   flex:auto;
-  width: 50%;
+  width: 70%;
   margin-left:20px;
-  padding: 10px;
+  padding: 3px;
+  background-color: rgba(255,255,255,.6);
+  border-radius: 11px;
+  margin:5px 0px 10px 0px;
 }
 .homepage-image2 {
   background-image: url(../images/pig.webp);
   width:auto;
   background-repeat: no-repeat;
   background-size:contain;
-  background-position: center;
+  background-position: right;
   position:relative;
 }
 
