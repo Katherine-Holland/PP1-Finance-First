@@ -108,7 +108,7 @@ h2, h3, h4, p {
     padding: 5px;
 }
 
-button {
+.guide-button {
   width: 100%;
   justify-content:center;
   font-size:100%;
@@ -225,4 +225,22 @@ button {
   border: none;
   cursor:pointer;
   border-radius: 15px;
+}
+.sign-up-form input[type="submit"]:hover {
+  background-color: #80ED99;
+  color: #22577A;
+}
+.sign-up-form a {
+  text-decoration: none;
+  color: #22577A;
+  font-size: 17px;
+}
+.sign-up-form a:hover {
+  text-decoration:underline;
+}
+
+
+.guide-button :hover {
+  background-color: #80ED99;
+  color: #22577A;
 }
