@@ -1,8 +1,4 @@
-.main-content {
-  /* Add padding to the bottom to create space for the fixed footer */
-  padding-bottom:300px; /* Adjust the value as needed */
-  min-height: 100%;
-}
+
 .container {
     width: 100%;
     max-width: 1080px;
@@ -138,17 +134,22 @@ h2, h3, h4, p {
   font-size: 20px;
 }
 .section-text {
-  flex: column;
+  flex:auto;
   width: 50%;
   margin-left:20px;
-  height:100%;
   padding: 10px;
 }
-
+.homepage-image2 {
+  background-image: url(../images/pig.webp);
+  width:auto;
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position: center;
+  position:relative;
+}
 
 .footer {
-  position:inherit;
-  left:0;
+    position:relative;
   bottom:0;
     background-color: #22577A;
     padding-top: 20px;
@@ -182,7 +183,7 @@ h2, h3, h4, p {
         float: right;
         display: block;
     }
-
+}
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 600px) {
@@ -212,7 +213,7 @@ h2, h3, h4, p {
     }
 
   /* sign up page styling */
-}
+
 .signup-background {
   background-image: url(../images/kidscomputer.webp);
   height: 100vh;
@@ -220,16 +221,8 @@ h2, h3, h4, p {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  position:relative;
 }
-.homepage-image2 {
-  background-image: url(../images/pig.webp);
-  width:auto;
-  background-repeat: no-repeat;
-  background-size:contain;
-  background-position: center;
-  position:relative;
-}
+ 
 
 .sign-up-form {
   box-sizing:border-box;
