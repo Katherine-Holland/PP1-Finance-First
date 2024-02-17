@@ -1,4 +1,8 @@
-
+.main-content {
+  /* Add padding to the bottom to create space for the fixed footer */
+  padding-bottom:300px; /* Adjust the value as needed */
+  min-height: 100%;
+}
 .container {
     width: 100%;
     max-width: 1080px;
@@ -56,7 +60,7 @@ header {
 #cover-text {
     background-color:#adf0bd;
     font-size:20px;
-  text-align:center;
+    text-align:center;
     color:#0e2536;
     padding:0px 5px 0px 5px;
     max-width: 1080px;
@@ -141,7 +145,11 @@ h2, h3, h4, p {
   padding: 10px;
 }
 
+
 .footer {
+  position:inherit;
+  left:0;
+  bottom:0;
     background-color: #22577A;
     padding-top: 20px;
     padding: 1rem;
@@ -174,7 +182,7 @@ h2, h3, h4, p {
         float: right;
         display: block;
     }
-}
+
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 600px) {
@@ -216,10 +224,9 @@ h2, h3, h4, p {
 }
 .homepage-image2 {
   background-image: url(../images/pig.webp);
-  height: 600px;
   width:auto;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:contain;
   background-position: center;
   position:relative;
 }

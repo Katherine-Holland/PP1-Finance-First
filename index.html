@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,8 +22,9 @@
     <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body>
-    
+
+  <body>
+    <div class="main-content">
     <div class="container">
         <!-- nav bar taken from w3schools https://www.w3schools.com/howto/howto_js_topnav_responsive.asp -->
         <div class="topnav" id="myTopnav">
@@ -71,10 +73,10 @@
         </div>
     <!-- end of Horizontal guides bar -->
           <div class="homepage-image2" alt="piggybank">
-<div id="section-title">
+  <div id="section-title">
   <p><h3><strong>Why invest for your child?</strong></h3></p>
-</div> 
-<div>
+  </div> 
+  <div>
   <section class="section-text">
     <p>
     Investing and saving for children offers numerous long-term benefits that extend well into their future. 
@@ -95,37 +97,47 @@
             </li>
         </ul>  
     </p>
+
     </section>
-</div>
+  </div>
             </div>
 
 
-        <div class="footer">
-            <footer>
-                <!-- Code taken from the Love Running tutorial -->
-                <ul id="social-networks">
-                    <li><a href="https://www.facebook.com/" target="_blank" rel= "noopener" aria-label="Visit our Facebook page (opens in a new window)"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
-                    <!-- code modified from W3 schools: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_images_hackman -->
-                    <img src="https://media1.giphy.com/media/ODG034tmOF7O0IPLM7/giphy.gif?cid=6c09b952behkbygc0dfr46zmczl98o5i0ji96j94dr8swyxi&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=s" alt="money dropping into piggybank" style="width:120px;height:130px;">
-                    <li><a href="https://www.twitter.com/" target="_blank" rel= "noopener" aria-label="Visit our Twitter page (opens in a new window)"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
-                </ul>
-                    <p>Copyright © Finance First 2024</p>
-                    <p>Disclaimer: <em>This site is for educational purposes and is not financial advice.</em></p>
-            </footer>
-        </div>
-    </div>
-    </div>
-    <script>
-        function myFunction() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
-                x.className += " responsive";
-            } else {
-                x.className = "topnav";
-            }
-        }
 
-        
-    </script>
+
+
+  
+
+
+
+
+
+<div class="footer">
+  <footer>
+      <!-- Code taken from the Love Running tutorial -->
+      <ul id="social-networks">
+          <li><a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new window)"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+          <!-- code modified from W3 schools: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_images_hackman -->
+          <img src="https://media1.giphy.com/media/ODG034tmOF7O0IPLM7/giphy.gif?cid=6c09b952behkbygc0dfr46zmczl98o5i0ji96j94dr8swyxi&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=s" alt="money dropping into piggybank" style="width:120px;height:130px;">
+          <li><a href="https://www.twitter.com/" target="_blank" rel="noopener" aria-label="Visit our Twitter page (opens in a new window)"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+      </ul>
+      <p>Copyright © Finance First 2024</p>
+      <p>Disclaimer: <em>This site is for educational purposes and is not financial advice.</em></p>
+  </footer>
+</div>
+</div>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+      x.className += " responsive";
+  } else {
+      x.className = "topnav";
+  }
+}
+
+</script>
+</div>
 </body>
+
 </html>
