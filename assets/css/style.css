@@ -40,7 +40,7 @@
 
 header {
     font-family: 'Rubik', sans-serif;
-    position: "top-left";
+    position: top-left;
     padding: 0 4px 0;
     color:#0e2536
 }
@@ -127,6 +127,8 @@ button {
     text-align:center;
     color:rgb(98, 122, 134);
 }
+
+
 /*footer social networks- taken from the Love Running tutorial*/
 #social-networks {
     text-align: center;
@@ -154,7 +156,7 @@ button {
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 600px) {
-    .topnav.responsive 
+    .topnav.responsive
         position: relative;
     }
 
@@ -178,6 +180,8 @@ button {
         align-items: center;
         /* Center items vertically */
     }
+
+  /* sign up page styling */
 }
 .signup-background {
   background-image: url(../images/kidscomputer.webp);
@@ -201,4 +205,5 @@ button {
   padding: 30px 30px;
   background-color: rgba(255,255,255,0.8);
   box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+  border-radius: 11px;
 }
