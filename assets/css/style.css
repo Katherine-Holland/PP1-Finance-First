@@ -226,7 +226,7 @@ h2, h3, h4, p {
     position:relative;
     background-image: url(../images/kidscomputer.webp);
     height: 100vh;
-    width:1080px;
+    max-width:1080px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
