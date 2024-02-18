@@ -293,7 +293,9 @@ h2, h3, h4, p {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh; /*moved video down the page*/
+    padding:10px 0px 10px 0px;
+    margin:10px auto;
+    height:10vh; /*moved video down the page*/
 }
 
 #video-container iframe {
@@ -305,8 +307,9 @@ h2, h3, h4, p {
     margin:10px auto;
     margin-right: 20px;/* Added some space between the video and text */
     position:absolute;
+    padding: 10px;
 }
 
-#text-content {
-    flex: 1;
+.video-guide {
+  text-align: center;
 }
