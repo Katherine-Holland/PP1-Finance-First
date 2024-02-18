@@ -5,17 +5,13 @@
     margin: 0 auto;
     background-color:#f4f4f0;
 }
-/*
-.sign-up-page {
-  height: 100vh:
-} */
 
 /* Add a Verdigris background color to the top navigation */
 .topnav {
     background-color: #38A3A5;
     overflow: hidden;
 }
-/* Style the links inside the navigation bar added font colork*/
+/* Style the links inside the navigation bar added font color*/
 .topnav a {
     float: right;
     display: block;
@@ -225,11 +221,12 @@ h2, h3, h4, p {
   .signup-background {
     position:relative;
     background-image: url(../images/kidscomputer.webp);
-    height: 100vh;
-    max-width:1080px;
+    height:100vh;
+    width:auto;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    margin-bottom:5px;
   }
   
   .sign-up-form {
@@ -238,12 +235,15 @@ h2, h3, h4, p {
     align-items:center;
     display:flex;
     flex-direction:column;
-    height: 400px;
-    width: 400px;
-    margin: 10% auto;
+    height: auto;
+    max-width: 400px;
+    margin:10% auto;
+    text-align:center;
+    text-overflow: hidden;
     padding: 30px 30px;
     background-color: rgba(255,255,255,.9);
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    background-position:center;
     border-radius: 11px;
   }
   
@@ -278,7 +278,7 @@ h2, h3, h4, p {
   .sign-up-form a:hover {
     text-decoration:underline;
   }
-
+/* homepage buttons */
   .guides-container .guide-button:hover {
       background-color: #adf0bd; 
       color: #22577A; 
