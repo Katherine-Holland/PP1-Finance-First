@@ -4,6 +4,7 @@
     max-width: 1080px;
     margin: 0 auto;
     background-color:#f4f4f0;
+    height: 100vh;
 }
 
 /* Add a Verdigris background color to the top navigation */
@@ -295,13 +296,14 @@ h2, h3, h4, p {
 }
 
 #video-container iframe {
-    width: relative;
-  max-width: 100%;
-  height: auto;
-    height: 400px;
-    border: none;
+    width:auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 400px;
+    border: 10px;
     margin:10px auto;
-   margin-right: 20px;/* Added some space between the video and text */
+    margin-right: 20px;/* Added some space between the video and text */
+    position:absolute;
 }
 
 #text-content {
