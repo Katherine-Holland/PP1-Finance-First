@@ -21,7 +21,6 @@
     text-decoration: none;
     font-size: 20px;
     font-family: 'Hind Madurai', sans-serif;
-    font-display: swap;
 }
 /* Change the color of links on hover */
 .topnav a:hover {
@@ -40,7 +39,6 @@
 .header {
     font-family: 'Rubik', sans-serif;
     color:#0e2536
-    font-display: swap;
 }
 .topnav a h1 {
   float: left;
@@ -76,7 +74,6 @@ h1 {
 }
 h2, h3, h4, p {
     font-family: 'Hind Madurai', sans-serif;
-    font-display: swap;
 }
 .guides-container {
     display: flex;
