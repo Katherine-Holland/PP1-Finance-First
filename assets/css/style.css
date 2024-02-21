@@ -113,7 +113,7 @@ h2, h3, h4, p {
   width: 100%;
   color:white;
   border-radius:20px;
-  background-color:#38A3A5;
+  background-color:#22577A;
   border-color:white;
 }
 #section-title {
@@ -145,7 +145,7 @@ h2, h3, h4, p {
     padding: 1rem;
     font-family: 'Rubik', sans-serif;
     text-align:center;
-    color:rgb(98, 122, 134);
+    color:rgb(228, 237, 241);
 }
 /*footer social networks- taken from the Love Running tutorial*/
 #social-networks {
