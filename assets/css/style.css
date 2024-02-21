@@ -45,20 +45,20 @@
 }
 /* Hero section - tutorial from Love Running */
 #hero {
-    height: 500px;
+    height: 350px;
     width: 100%;
     background: url("../images/piggybank.webp") no-repeat center center/cover;
     position: inherit;
 }
 #cover-text {
-    background-color:#adf0bd;
+    background-color:rgb(173,253,189,0.8);
     font-size:16px;
     text-align:center;
     color:#0e2536;
     padding:0px 0px 10px 0px;
     max-width: 1080px;
     height:auto;
-    overflow: hidden;
+    
 }
 #main-header {
   text-align:center;
