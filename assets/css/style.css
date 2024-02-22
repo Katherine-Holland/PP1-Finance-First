@@ -278,6 +278,25 @@ h2, h3, h4, p {
     position:absolute;
     padding: 10px;
 }
+#video-container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:10px 0px 10px 0px;
+    margin:10px auto;
+    height:10vh; /*moved video down the page*/
+}
+#video-container2 iframe {
+    width:auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 400px;
+    border: 10px;
+    margin:10px auto;
+    margin-right: 20px;/* Added some space between the video and text */
+    position:absolute;
+    padding: 10px;
+}
 .video-guide {
   text-align: center;
 }
