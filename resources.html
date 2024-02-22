@@ -28,9 +28,9 @@
       <h1>Finance First</h1>
         <!-- nav bar taken from w3schools https://www.w3schools.com/howto/howto_js_topnav_responsive.asp -->
         <div class="topnav" id="myTopnav">
-            <a href="index.html">Home</a>
+            <a href="index.html" aria-label="Home">Home</a>
             <a href="resources.html" class="active"><i class="fa fa-book" aria-hidden="true"></i></a>
-            <a href="signup.html">Sign Up</a>
+            <a href="signup.html" aria-label="Sign Up">Sign Up</a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                 <i class="fa fa-bars"></i></a>
         </div>
@@ -77,32 +77,39 @@
       <br>  
       <br>
       
-            <div class="footer">
-                <footer>
-                    <!-- Code taken from the Love Running tutorial -->
-                    <ul id="social-networks">
-                        <li><a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new window)"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
-                        <!-- code modified from W3 schools: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_images_hackman -->
-                        <img src="https://media1.giphy.com/media/ODG034tmOF7O0IPLM7/giphy.gif?cid=6c09b952behkbygc0dfr46zmczl98o5i0ji96j94dr8swyxi&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=s" alt="money dropping into piggybank" style="width:120px;height:130px;">
-                        <li><a href="https://www.twitter.com/" target="_blank" rel="noopener" aria-label="Visit our Twitter page (opens in a new window)"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
-                    </ul>
-                    <p>Copyright © Finance First 2024</p>
-                    <p>Disclaimer: <em>This site is for educational purposes and is not financial advice.</em></p>
-                </footer>
-            </div>
-        </div>
-        <script>
-            function myFunction() {
-                var x = document.getElementById("myTopnav");
-                if (x.className === "topnav") {
-                    x.className += " responsive";
-                } else {
-                    x.className = "topnav";
-                }
-            }
+         <div class="footer">
+           <footer>
+               <!-- Code taken from the Love Running tutorial -->
+               <ul id="social-networks">
+                   <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                           aria-label="Visit our Facebook page (opens in a new window)"><i
+                               class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
 
-        </script>
-      </div>
-</body>
+                       <!-- code modified from W3 schools: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_images_hackman -->
+                       <img src="https://media1.giphy.com/media/ODG034tmOF7O0IPLM7/giphy.gif?cid=6c09b952behkbygc0dfr46zmczl98o5i0ji96j94dr8swyxi&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=s"
+                           alt="money dropping into piggybank" style="width:120px;height:130px;">
+                   <li><a href="https://www.twitter.com/" target="_blank" rel="noopener"
+                           aria-label="Visit our Twitter page (opens in a new window)"><i
+                               class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+               </ul>
+               <p>Copyright © Finance First 2024</p>
+               <p>Disclaimer: <em>This site is for educational purposes and is not financial advice.</em></p>
+           </footer>
 
-</html>
+         </div>
+         </div>
+         <script>
+         function myFunction() {
+           var x = document.getElementById("myTopnav");
+           if (x.className === "topnav") {
+               x.className += " responsive";
+           } else {
+               x.className = "topnav";
+           }
+         }
+
+         </script>
+         </div>
+         </body>
+
+         </html>
