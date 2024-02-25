@@ -14,31 +14,30 @@ Contents
 
 ## Introduction
 **Audience:**
-Finance First is the first stop for UK based parents and guardians looking to invest in their children's future. It provides an introduction to the financial products on offer in the UK aimed specifically at children aged between 0 - 18.
-The site exists to raise awareness of the financial products on offer to parents and guardians looking to invest for their children and benefit from the tax breaks currently given. 
+Finance First is the first stop for UK based parents and guardians looking to invest in their children's future. It raises awareness of and provides an introduction to the financial products on offer in the UK aimed specifically at children aged between 0 - 18.
 **Client side:**
-The site is designed to encourage a targeted audience to sign up to an email list to generate an valuable database for marketing purposes.
+The site is designed to feel established and trustworthy, drawing on a standard layout, simple fonts and a consistent colour scheme. The website is designed to encourage a targeted audience to sign up to an email list, to generate a valuable database for marketing purposes. 
 
 ## Design
-The wireframe was created using Balsamiq. I created a basic landing page design which I then used as the basis for my project. https://balsamiq.com/
+The wireframe was created using Balsamiq. I created a basic landing page design which I then used as the basis for my project.
 ![Wireframe for Mobile](assets/images/wireframe.png)
 
 ### Colours
-I chose a cool colour palette to give a professional, trustworthy feel to the site. I used websites such as Hargreaves Lansdown https://www.hl.co.uk/ and Point 72 https://point72.com/ as my inspiration. The cool tones flow well together and the blues are calming. Green is also a colour associated with USD and contrasts well with blue. 
+I chose a cool colour palette to give a professional feel to the site. I used websites such as Hargreaves Lansdown https://www.hl.co.uk/ and Point 72 https://point72.com/ as my inspiration. The cool tones flow well together and the blues are calming. Green is also a colour often used when denoting images money and contrasts well with blue. I feel the understated, consistent colour scheme alongside the content creates a website which feels trustworthy; an important consideration, especially when designing a site to convey financial information and encourage sign up. 
 
 ![Colour palette](assets/images/palette.png)
 
 ### Fonts
-I used google fonts to choose two fonts that look good together and also fonts that would be professional and accessible in design. I chose Hind Madurai and Rubik.
-
+I used Google fonts and choose two fonts that look good together and would look professional and accessible in design. I chose 'Hind Madurai' and 'Rubik'.
+Although I felt these fonts looked professional, they were also slightly less formal feeling and rounded which suited the topic of investing for children.
 ![Fonts](assets/images/fonts.png)
 
 ## Features
 Below are the core functions and elements I incorporated into the site.
 
 ### Navbar
-I used Font Awesome to select my icons. I chose v4 to be compatible with the version I was coding with.
-I decided to layout my navigation with the home page in the far right corner and with the sign up on the left. This was to encourage users to sign up to the newsletter and to increase the likelihood of growing an email list quickly.
+I used Font Awesome to select my icons. I chose v4 icons to be compatible with the version I was coding with.
+I decided to layout my navigation with the home page in the far right corner and with the Sign Up page on the left. This was to allow sign up to be more dominant on the homepage therefore encouraging users to sign up to the newsletter and to increase the likelihood of growing an email list quickly.
 
 ### Buttons
 
