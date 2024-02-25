@@ -132,7 +132,9 @@ Credit: Vanessa Lee - https://unsplash.com/photos/hanged-pink-pig-coin-bank-TB5J
 
 ## Website Validators:
 https://validator.w3.org/
+
 https://jigsaw.w3.org/css-validator/
+
 Google Dev Tools - Lighthouse
 
 ## Favicon Creation:
@@ -141,7 +143,9 @@ Favicon image - author's own.
 
 ## Tutorials & Advice:
 https://www.w3schools.com/
+
 Code Institute - Love Running Tutorial
+
 Code Chic: https://www.youtube.com/watch?v=T2r0HSc4UlA
 
 
