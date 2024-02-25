@@ -259,6 +259,10 @@ h2, h3, h4, p {
       color: #22577A; 
   }
 /*video styling */
+
+.video-text {
+  width:100%;
+}
 #video-container {
     display: flex;
     width: 616px;
