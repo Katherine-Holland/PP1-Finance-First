@@ -50,8 +50,9 @@ I created two buttons on the 'Homepage' and a button on the 'Sign Up' page. The 
 I added two videos that explained the two financial products I had selected for this website- Junior ISAs and Junior SIPPs. I set the videos to mute which I felt was best practice and embedded them into the page, the links to YouTube also opened in a seperate window.
 
 ### Images
+I chose images that related to finance but with a child theme. A piggy bank seemed an obvious and relatable choice. Stacking blocks were used to indicate compounding finance, an intention of a Junior SIPP and a seedling in a money pot to denote new growth and the start of a financial journey.
 
-### Contact Form
+### Sign Up Form
 
 ### Footer
 Social Media icons
