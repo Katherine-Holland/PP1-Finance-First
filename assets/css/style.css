@@ -163,52 +163,6 @@ h2, h3, h4, p {
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 /* Default styles for wider screens */
 
-.topnav a:not(:first-child) {
-    display: block;
-}
-
-.topnav a.icon {
-    float: none;
-    display: none;
-}
-
-.topnav.responsive {
-    position: relative;
-}
-
-.topnav.responsive a.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-}
-
-.topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-}
-
-.section-text {
-    width: 100%;
-}
-
-#image-container {
-    flex-direction: column;
-    align-items: center;
-}
-
-#video-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-iframe {
-    width: 100%;
-    height: auto;
-}
-
-/* Media query for smaller screens, e.g., max-width: 600px */
 
 @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {
