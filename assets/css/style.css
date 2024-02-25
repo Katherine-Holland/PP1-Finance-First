@@ -275,7 +275,7 @@ h2, h3, h4, p {
 .video-text {
   width:100%;
 }
-#video-container {
+  #video-container {
     display: flex;
     max-width:100%;
     width: 616px;
@@ -284,18 +284,16 @@ h2, h3, h4, p {
     justify-content: center;
     padding:10px 0px 10px 0px;
     margin:10px auto;
-     
-}
-#video-container iframe {
-    max-width: 100%;
-    width: 616px;
-    height: 346.5px;
-    border: 10px;
-    margin:10px auto;
-    margin-right: 20px;/* Added some space between the video and text */
-    position:absolute;
-    padding: 10px;
-}
+  }
+  #video-container iframe {
+       max-width: 100%;
+        width: 616px;
+        height: 346.5px;
+        border: 10px;
+        margin:10px auto;
+        position:absolute;
+        padding: 10px;
+  }
 #video-container2 {
   display: flex;
   max-width:100%;
@@ -312,7 +310,6 @@ h2, h3, h4, p {
       height: 346.5px;
       border: 10px;
       margin:10px auto;
-      margin-right: 20px;/* Added some space between the video and text */
       position:absolute;
       padding: 10px;
 }
