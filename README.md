@@ -1,5 +1,7 @@
 # Finance First
+![mock-up](assets/images/screen-homepage.png)
 ![alt text](https://github.com/KatherineWeston/PP1-Finance-First-3#assets/images/wireframe.png "Finance First home page on different screen sizes")
+
 Visit the live site [here](https://katherine-holland.github.io/PP1-Finance-First/index.html)
 
 Contents
@@ -12,7 +14,7 @@ Contents
 
 ## Introduction
 What the project is
-Why it exists a
+Why it exists 
 Who is it for
 
 ## Design
