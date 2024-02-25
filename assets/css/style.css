@@ -161,9 +161,6 @@ h2, h3, h4, p {
     color:#adf0bd;
 }
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-/* Default styles for wider screens */
-
-
 @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {
         display: none;
@@ -187,32 +184,34 @@ h2, h3, h4, p {
         text-align: left;
     }
     .section-text {
-        width: 100%;
+      width: 100%;
     }
     #image-container {
         flex-direction: column;
+        /* Stack items vertically on smaller screens */
         align-items: center;
+        /* Center items vertically */
     }
 
-    #video-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-       
-    }
-  #video-container2 {
+  #video-container {
       display: flex;
       flex-direction: column;
       align-items: center;
-
   }
 
-    iframe {
-        max-width: 100%;
-    }
+  iframe {
+      width: 100%; /* Make the iframe responsive within its container */
+      height: auto; /* Maintain the aspect ratio */
+  }
+  
 }
-
-/*styling */
+/* Media query for Galaxy Fold or similar device */
+@media (max-width: 280px) {
+    iframe {
+        max-width: 100%; /* Ensure the video doesn't overflow the screen width */
+    }
+  
+  /* sign up page styling */
 
   .signup-background {
     position:relative;
@@ -282,41 +281,45 @@ h2, h3, h4, p {
 .video-text {
   width:100%;
 }
-
 #video-container {
     display: flex;
-    width: 100%; /* Use 100% width to make it responsive */
-    height: auto; /* Auto height to maintain aspect ratio */
+    width: 616px;
+  max-width:100%;
+    height: 346.5px;
     align-items: center;
     justify-content: center;
-    padding: 10px;
-    margin: 10px auto;
+    padding:10px 0px 10px 0px;
+    margin:10px auto;
+     
 }
-
 #video-container iframe {
     max-width: 100%;
-    width: 100%;
-    height: auto;
+    width: 616px;
+    height: 346.5px;
     border: 10px;
-    margin-right: 20px; /* Added some space between the video and text */
-    position: absolute;
+    margin:10px auto;
+    margin-right: 20px;/* Added some space between the video and text */
+    position:absolute;
     padding: 10px;
 }
 #video-container2 {
   display: flex;
-  width: 100%; /* Use 100% width to make it responsive */
-  height: auto; /* Auto height to maintain aspect ratio */
+  max-width:100%;
+  width: 616px;
+  height: 346.5px;
   align-items: center;
   justify-content: center;
-  padding: 10px;
-  margin: 10px auto;
+  padding:10px 0px 10px 0px;
+  margin:10px auto;
 }
 #video-container2 iframe {
-      width: 100%;
-      height: auto;
+     max-width: 100%;
+      width: 616px;
+      height: 346.5px;
       border: 10px;
-      margin-right: 20px; /* Added some space between the video and text */
-      position: absolute;
+      margin:10px auto;
+      margin-right: 20px;/* Added some space between the video and text */
+      position:absolute;
       padding: 10px;
 }
 .video-guide {
