@@ -1,7 +1,7 @@
 # Finance First
 ![mock-up](assets/images/screen-homepage.png)
 
-Visit the live site [here](https://katherine-holland.github.io/PP1-Finance-First/index.html)
+A Code Institute Project (P1). Visit the live site [here](https://katherine-holland.github.io/PP1-Finance-First/index.html)
 
 Contents
 1. [Introduction](#introduction)
@@ -25,7 +25,7 @@ The wireframe was created using Balsamiq. I created a basic landing page design 
 ![Wireframe for Mobile](assets/images/wireframe.png)
 
 ### Colours
-I chose a cool colour palette to give a professional feel to the site. I used websites such as Hargreaves Lansdown https://www.hl.co.uk/ and Point 72 https://point72.com/ as my inspiration. The cool tones flow well together and the blues are calming. Green is also a colour often used when denoting images money and contrasts well with blue. I feel the understated, consistent colour scheme alongside the content creates a website which feels trustworthy; an important consideration, especially when designing a site to convey financial information and encourage sign up. 
+I chose a cool colour palette to give a professional feel to the site. I used websites such as Hargreaves Lansdown https://www.hl.co.uk/ and Point 72 https://point72.com/ as my inspiration. The cool tones flow well together, allowing the reader to view light to dark as they scroll down the page and the blues are calming. Green is also a colour often used when denoting images money and contrasts well with blue. I feel the understated, consistent colour scheme alongside the content creates a website which feels trustworthy; an important consideration, especially when designing a site to convey financial information and encourage sign up. 
 
 ![Colour palette](assets/images/palette.png)
 
@@ -38,7 +38,7 @@ Although I felt these fonts looked professional, they were also slightly less fo
 ## Features
 Below are the core functions and elements I incorporated into the site.
 
-### Navbar
+### Navigation Bar
 I used Font Awesome to select my icons. I chose v4 icons to be compatible with the version I was coding with.
 I decided to lay out my navigation, with the 'Home Page' in the far right corner and the 'Sign Up' page on the left. This was to allow 'Sign Up' to be more dominant, therefore encouraging users to sign up to the newsletter and to increase the likelihood of growing an email list quickly.
 I also allowed the user to hover over the sections which would then change colour, I feel this helps to orient the user within the navigation.
@@ -47,6 +47,7 @@ I also allowed the user to hover over the sections which would then change colou
 I created two buttons on the 'Homepage' and a button on the 'Sign Up' page. The buttons change colour on hover and the text also switches colour. I feel visually this helps the user to navigate the site easily.
 
 ### Videos
+I added two videos that explained the two financial products I had selected for this website- Junior ISAs and Junior SIPPs. I set the videos to mute which I felt was best practice and embedded them into the page, the links to YouTube also opened in a seperate window.
 
 ### Images
 
@@ -98,6 +99,11 @@ https://fonts.google.com/
 
 **Buttons:**
 https://www.w3schools.com/html/tryit.asp?filename=tryhtml_links_button_element 
+
+**Video Credits**
+Thanks to:
+Which: https://www.youtube.com/watch?v=S-c3SsEFJcg
+
 
 **Original footer GIF code:**
 https://www.w3schools.com/html/tryit.asp?filename=tryhtml_images_hackman
