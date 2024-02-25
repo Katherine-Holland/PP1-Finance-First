@@ -100,9 +100,13 @@ https://fonts.google.com/
 **Buttons:**
 https://www.w3schools.com/html/tryit.asp?filename=tryhtml_links_button_element 
 
+**Sign Up Form**
+https://www.youtube.com/watch?v=T2r0HSc4UlA
+
 **Video Credits**
 Thanks to:
 Which: https://www.youtube.com/watch?v=S-c3SsEFJcg
+The Retirement Cafe: https://www.youtube.com/watch?v=CR6XMcdZG4M&t=3s
 
 
 **Original footer GIF code:**
@@ -125,5 +129,7 @@ https://favicon.io/favicon-converter/
 ## Tutorials & Advice:
 https://www.w3schools.com/
 Code Institute - Love Running Tutorial
+Code Chic: https://www.youtube.com/watch?v=T2r0HSc4UlA
 
-Special thanks to my Mentor Spencer Baribal for his support and guidance.
+
+Special thanks to my Mentor Spencer Barriball for his support and guidance.
