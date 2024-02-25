@@ -51,9 +51,7 @@ I added two videos that explained the two financial products I had selected for 
 
 ### Images
 I chose images that related to finance but with a child theme. A piggy bank as the hero image seemed an obvious and relatable choice. Stacking blocks were used to indicate compounding finance, an intention of a Junior SIPP and a seedling in a money pot to denote new growth and the start of a financial journey.
-The final image on the homepage showing a piggybank to the right of the text was kept behind a shaded white text box, this allowed the text to be more accessible when on a mobile responsive screen, as it is not best practice to overlay text onto an image.
-
-![Image](assets/images/piggybank.webp)![Image](assets/images/plant.webp)
+The final image on the homepage showing a piggybank to the right of the text was kept behind a shaded white text box, this allowed the text to be more accessible when on a mobile responsive screen, as it is not best practice to overlay text onto an image. ![Image](assets/images/piggybank.webp)
 
 ### Sign Up Form
 The sign up form was kept simple to encourage completion by the user. There is one call to action, to subscribe via name and email. This sign up box is also overlaid onto a white background colour to allow the text to stand out from the background image.
