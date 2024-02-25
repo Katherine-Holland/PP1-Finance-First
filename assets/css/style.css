@@ -286,6 +286,7 @@ h2, h3, h4, p {
 }
 #video-container2 {
   display: flex;
+  max-width:100%;
   width: 616px;
   height: 346.5px;
   align-items: center;
