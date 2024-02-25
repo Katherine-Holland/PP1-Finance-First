@@ -1,6 +1,5 @@
 # Finance First
 ![mock-up](assets/images/screen-homepage.png)
-![Mock Up](https://github.com/KatherineWeston/PP1-Finance-First-3#assets/images/wireframe.png "Finance First home page on different screen sizes")
 
 Visit the live site [here](https://katherine-holland.github.io/PP1-Finance-First/index.html)
 
@@ -13,12 +12,12 @@ Contents
 6. [Credits](#credits) 
 
 ## Introduction
-What the project is
-Why it exists 
-Who is it for
+Finance First is the first stop for UK based parents and guardians looking to invest in their children's future. It provides an introduction to the financial products on offer in the UK aimed specifically at children aged between 0 - 18.
+The site exists to raise awareness of the financial products on offer and is aimed at raising awareness of these products to parents and guardians looking to invest for their children and benefit from the tax breaks currently offered.
 
 ## Design
 ![Wireframe for Mobile](assets/images/wireframe.png)
+The wireframe was created using Balsamiq. I created a basic landing page design which I then used as the basis for my project. https://balsamiq.com/
 
 ## Colours
 ![Colour palette](assets/images/palette.png)
