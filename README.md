@@ -21,22 +21,27 @@ The wireframe was created using Balsamiq. I created a basic landing page design 
 
 ## Colours
 ![Colour palette](assets/images/palette.png)
-I chose a cool colour palette to give a professional feel to the site. I used websites such as Hargreaves Lansdown https://www.hl.co.uk/ and Point 72 https://point72.com/ as my inspiration. The cool tones flow well together and the blues are calming. Green is also a colour associated with USD and contrasts well with blue. 
+I chose a cool colour palette to give a professional, trustworthy feel to the site. I used websites such as Hargreaves Lansdown https://www.hl.co.uk/ and Point 72 https://point72.com/ as my inspiration. The cool tones flow well together and the blues are calming. Green is also a colour associated with USD and contrasts well with blue. 
 
 ## Fonts
-
+I used google fonts to choose two fonts I thought would look good together and also fonts that would be professional and accessible. I chose Hind Madurai and Rubik.
+![Fonts](assets/images/fonts.png)
 
 ## Features
-Core functions and elements of the site... 
-Navbar
-Footer
-Buttons
-Videos
-Contact Form
-Social Media icons
-### Existing Features
+Below are the core functions and elements I incorporated into the site.
 
-### Features Left to Implement
+### Navbar
+
+I used font awesome to select my icons. I chose v4 to be compatible with the version I was coding with.
+https://fontawesome.com/v4/
+### Buttons
+### Videos
+### Images
+### Contact Form
+### Footer
+Social Media icons
+
+### Future Features
 
 ## Manual Testing
 Does it work as intended. 
@@ -53,3 +58,39 @@ Test in chrome
 Test in Firefox
 
 ## Credits
+Wireframe:
+https://balsamiq.com/
+Nav bar icons:
+https://fontawesome.com/v4/
+Nav Bar code:
+https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
+Mock Up:
+https://ui.dev/amiresponsive?url=https://katherine-holland.github.io/PP1-Finance-First/index.html
+Fonts:
+https://fonts.google.com/
+Buttons:
+https://www.w3schools.com/html/tryit.asp?filename=tryhtml_links_button_element 
+
+Original footer GIF code:
+https://www.w3schools.com/html/tryit.asp?filename=tryhtml_images_hackman
+
+GIF by Zurich Schweiz, GIPHY:
+https://giphy.com/stickers/ZurichVersicherung-transparent-ODG034tmOF7O0IPLM7
+
+Images:
+Unsplash:
+
+
+Website Validators:
+https://validator.w3.org/
+https://jigsaw.w3.org/css-validator/
+Google Dev Tools - Lighthouse
+
+Favicon Creation:
+https://favicon.io/favicon-converter/
+
+Tutorials & Advice:
+https://www.w3schools.com/
+Code Institute - Love Running Tutorial
+
+Special thanks to my Mentor Spencer Baribal for his support and guidance.
