@@ -51,7 +51,9 @@ I added two videos that explained the two financial products I had selected for 
 
 ### Images
 I chose images that related to finance but with a child theme. A piggy bank as the hero image seemed an obvious and relatable choice. Stacking blocks were used to indicate compounding finance, an intention of a Junior SIPP and a seedling in a money pot to denote new growth and the start of a financial journey.
+
 The final image on the homepage showing a piggybank to the right of the text was kept behind a shaded white text box, this allowed the text to be more accessible when on a mobile responsive screen, as it is not best practice to overlay text onto an image.
+
 I also made sure to convert the files to .webp from their original formats and resized them to ensure fast load times. 
 
 ![Image](assets/images/piggybank.webp)
@@ -63,7 +65,7 @@ The sign up form was kept simple to encourage completion by the user. There is o
 I added Social Media icons and a GIF to add interest to the footer. I also put the disclaimer in this section.
 
 ## Deployment
-I deployed the site and tested it using two different and popular browsers, Chrome and Firefox, both of which worked well.
+I deployed the site via GitHub and tested it using two popular browsers, Chrome and Firefox, both of which worked well.
 I then checked the site using Google Dev Tools testing the mobile responsiveness on all devices. The site worked well as I had used a container to add mobile responsiveness. I did however, have some challenges to allow the design to look good on Galaxy Fold. After amending the text width on the Homepage, and the 'sign up' box on the Sign Up page, the site looked much better on this device.
 
 ## Manual Testing
@@ -113,7 +115,9 @@ https://www.youtube.com/watch?v=T2r0HSc4UlA
 
 **Video Credits**
 Thanks to:
+
 Which: https://www.youtube.com/watch?v=S-c3SsEFJcg
+
 The Retirement Cafe: https://www.youtube.com/watch?v=CR6XMcdZG4M&t=3s
 
 **Original footer GIF code:**
@@ -125,9 +129,13 @@ https://giphy.com/stickers/ZurichVersicherung-transparent-ODG034tmOF7O0IPLM7
 ## Images:
 Unsplash:
 Credit: Fabian Blank - https://unsplash.com/photos/pink-pig-figurine-on-white-surface-pElSkGRA2NU
+
 Credit: Jeff Sheldon - https://unsplash.com/photos/turned-of-monitor-near-keyboard-and-mouse-9dI3g8owHiI
+
 Credit: Markus Spiske - https://unsplash.com/photos/child-building-an-four-boxes-OO89_95aUC0
+
 Credit: Micheile Henderson - https://unsplash.com/@micheile Plant in a money pot.
+
 Credit: Vanessa Lee - https://unsplash.com/photos/hanged-pink-pig-coin-bank-TB5JdR7g8JM
 
 ## Website Validators:
@@ -139,6 +147,7 @@ Google Dev Tools - Lighthouse
 
 ## Favicon Creation:
 https://favicon.io/favicon-converter/
+
 Favicon image - author's own.
 
 ## Tutorials & Advice:
