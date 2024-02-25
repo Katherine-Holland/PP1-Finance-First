@@ -1,6 +1,6 @@
 # Finance First
 ![mock-up](assets/images/screen-homepage.png)
-![alt text](https://github.com/KatherineWeston/PP1-Finance-First-3#assets/images/wireframe.png "Finance First home page on different screen sizes")
+![Mock Up](https://github.com/KatherineWeston/PP1-Finance-First-3#assets/images/wireframe.png "Finance First home page on different screen sizes")
 
 Visit the live site [here](https://katherine-holland.github.io/PP1-Finance-First/index.html)
 
