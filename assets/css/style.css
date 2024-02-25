@@ -261,17 +261,20 @@ h2, h3, h4, p {
 /*video styling */
 #video-container {
     display: flex;
+  width: 616px;
+  height: 346.5px;
     align-items: center;
     justify-content: center;
     padding:10px 0px 10px 0px;
     margin:10px auto;
-    height:10vh; /*moved video down the page*/
+     /*moved video down the page*/
 }
 #video-container iframe {
-    width:auto;
+    
     max-width: 100%;
-    height: auto;
-    max-height: 400px;
+  width: 616px;
+    height: 346.5px;
+   
     border: 10px;
     margin:10px auto;
     margin-right: 20px;/* Added some space between the video and text */
