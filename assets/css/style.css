@@ -192,13 +192,7 @@ h2, h3, h4, p {
         align-items: center;
         /* Center items vertically */
     }
-
-  #video-container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-  }
-
+  
   iframe {
       width: 100%; /* Make the iframe responsive within its container */
       height: auto; /* Maintain the aspect ratio */
@@ -283,8 +277,8 @@ h2, h3, h4, p {
 }
 #video-container {
     display: flex;
+    max-width:100%;
     width: 616px;
-  max-width:100%;
     height: 346.5px;
     align-items: center;
     justify-content: center;
