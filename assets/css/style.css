@@ -198,10 +198,8 @@ h2, h3, h4, p {
 .sign-up-form a:hover {
     text-decoration:underline;
 }
-/*video styling resources page*/
-.video-text {
-    width:100%;
  }
+/*video styling resources page*/
 #video-container {
     display: flex;
     max-width:100%;
