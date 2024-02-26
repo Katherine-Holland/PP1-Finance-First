@@ -155,5 +155,4 @@ Code Institute - Love Running Tutorial
 
 Code Chic: https://www.youtube.com/watch?v=T2r0HSc4UlA
 
-
 Special thanks to my Mentor Spencer Barriball for his support and guidance.
