@@ -65,7 +65,9 @@ The sign up form was kept simple to encourage completion by the user. There is o
 I added Social Media icons and a GIF to add interest to the footer. I also put the disclaimer in this section.
 
 ## Deployment
-I deployed the site via GitHub and tested it using two popular browsers, Chrome and Firefox, both of which worked well.
+I deployed the site via GitHub. I did this on the 'pages' section via the repository 'settings' tab. Under the 'source' drop down menu, I deployed from branch, ensuring the 'root' folder was selected before saving it. Under the green 'code' button, within the repository, the URL link is shown and I copy pasted into the browser and IDE.  
+
+I tested it using two popular browsers, Chrome and Firefox, both of which worked well.
 I then checked the site using Google Dev Tools testing the mobile responsiveness on all devices. The site worked well as I had used a container to add mobile responsiveness. I did however, have some challenges to allow the design to look good on Galaxy Fold. After amending the text width on the Homepage, and the 'sign up' box on the Sign Up page, the site looked much better on this device.
 
 ## Manual Testing
