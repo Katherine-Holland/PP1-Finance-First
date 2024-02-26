@@ -43,6 +43,12 @@
 .topnav a h1 {
   float: left;
 }
+h1 {
+    font-family: 'Rubik', sans-serif;
+}
+h2, h3, h4, p {
+    font-family: 'Hind Madurai', sans-serif;
+}
 /* Hero section - tutorial from Love Running */
 #hero {
     height: 200px;
@@ -57,23 +63,16 @@
     color:#0e2536;
     max-width:100%;
     width:300px;
-    height:auto;
-    
+    height:auto;  
 }
 #main-header {
-  text-align:center;
-  background-color:white;
-  border-radius: 5px;
-  max-width:100%;
-  padding:5px;
-  margin: 10px auto;
-  margin-top: 0px;
-}
-h1 {
-    font-family: 'Rubik', sans-serif;
-}
-h2, h3, h4, p {
-    font-family: 'Hind Madurai', sans-serif;
+    text-align:center;
+    background-color:white;
+    border-radius: 5px;
+    max-width:100%;
+    padding:5px;
+    margin: 10px auto;
+    margin-top: 0px;
 }
 .guides-container {
     display: flex;
@@ -106,19 +105,24 @@ h2, h3, h4, p {
     border-radius: 10px;
     padding: 5px;
 }
+/* homepage buttons */
 .guide-button {
-  position: inherit;
-  font-size:20px;
-  margin:0px auto;
-  width: 100%;
-  color:white;
-  border-radius:20px;
-  background-color:#22577A;
-  border-color:white;
+    position: inherit;
+    font-size:20px;
+    margin:0px auto;
+    width: 100%;
+    color:white;
+    border-radius:20px;
+    background-color:#22577A;
+    border-color:white;
+}
+.guides-container .guide-button:hover {
+  background-color: #adf0bd; 
+  color: #22577A; 
 }
 #section-title {
-  text-align: center;
-  font-size: 20px;
+    text-align: center;
+    font-size: 20px;
 }
 .section-text {
     flex: auto;
@@ -130,13 +134,116 @@ h2, h3, h4, p {
     margin: 5px 0px 10px 0px;
 }
 .homepage-image2 {
-  background-image: url(../images/pig.webp);
-  width:auto;
-  background-repeat:no-repeat;
-  background-size:contain;
-  background-position: right;
-  position:relative;
+    background-image: url(../images/pig.webp);
+    width:auto;
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position: right;
+    position:relative;
 }
+  /* sign up page styling */
+.signup-background {
+    position:relative;
+    background-image: url(../images/kidscomputer.webp);
+    height:100vh;
+    width:auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom:5px;
+}
+.sign-up-form {
+    box-sizing:border-box;
+    justify-content:center;
+    align-items:center;
+    display:flex;
+    flex-direction:column;
+    height: auto;
+    max-width: 400px;
+    margin:10% auto;
+    text-align:center;
+    padding: 30px 30px;
+    background-color: rgba(255,255,255,.9);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    background-position:center;
+    border-radius: 11px;
+}
+.sign-up-form input[type="text"],
+.sign-up-form input[type="email"] {
+    width: 100%;
+    padding:10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 1px solid #22577A;
+}
+.sign-up-form input[type="submit"] {
+    width: 100%;
+    padding:10px;
+    margin-top: 20px;
+    background-color:#22577A;
+    color:white;
+    border: none;
+    cursor:pointer;
+    border-radius: 15px;
+}
+.sign-up-form input[type="submit"]:hover {
+    background-color: #adf0bd;
+    color: #22577A;
+}
+.sign-up-form a {
+    text-decoration: none;
+    color: #22577A;
+    font-size: 17px;
+}
+.sign-up-form a:hover {
+    text-decoration:underline;
+}
+/*video styling resources page*/
+.video-text {
+    width:100%;
+ }
+#video-container {
+    display: flex;
+    max-width:100%;
+    width: 616px;
+    height: 346.5px;
+    align-items: center;
+    justify-content: center;
+    padding:10px 0px 10px 0px;
+    margin:10px auto;
+}
+#video-container iframe {
+    max-width: 100%;      
+    width: 616px;
+    height: 346.5px;
+    border: 10px;
+    margin:10px auto;
+    position:absolute;
+    padding: 10px;
+}
+#video-container2 {
+    display: flex;
+    max-width:100%;
+    width: 616px;
+    height: 346.5px;
+    align-items: center;
+    justify-content: center;
+    padding:10px 0px 10px 0px;
+    margin:10px auto;
+}
+#video-container2 iframe {
+    max-width: 100%;
+    width: 616px;
+    height: 346.5px;
+    border: 10px;
+    margin:10px auto;
+    position:absolute;
+    padding: 10px;
+}
+.video-guide {
+    text-align: center;
+}
+/*Footer*/
 .footer {
     position:relative;
     bottom:0;
@@ -172,7 +279,6 @@ h2, h3, h4, p {
     .topnav.responsive {
         position: relative;
     }
-
     .topnav.responsive a.icon {
         position: absolute;
         right: 0;
@@ -188,119 +294,6 @@ h2, h3, h4, p {
     }
     #image-container {
         flex-direction: column;
-        /* Stack items vertically on smaller screens */
         align-items: center;
-        /* Center items vertically */
     }
 }  
-  /* sign up page styling */
-
-  .signup-background {
-    position:relative;
-    background-image: url(../images/kidscomputer.webp);
-    height:100vh;
-    width:auto;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    margin-bottom:5px;
-  }
-
-  .sign-up-form {
-    box-sizing:border-box;
-    justify-content:center;
-    align-items:center;
-    display:flex;
-    flex-direction:column;
-    height: auto;
-    max-width: 400px;
-    margin:10% auto;
-    text-align:center;
-    padding: 30px 30px;
-    background-color: rgba(255,255,255,.9);
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
-    background-position:center;
-    border-radius: 11px;
-  }
-
-  .sign-up-form input[type="text"],
-  .sign-up-form input[type="email"] {
-    width: 100%;
-    padding:10px;
-    margin: 10px 0;
-    box-sizing: border-box;
-    border: 1px solid #22577A;
-  }
-  .sign-up-form input[type="submit"] {
-    width: 100%;
-    padding:10px;
-    margin-top: 20px;
-    background-color:#22577A;
-    color:white;
-    border: none;
-    cursor:pointer;
-    border-radius: 15px;
-  }
-  .sign-up-form input[type="submit"]:hover {
-    background-color: #adf0bd;
-    color: #22577A;
-  }
-  .sign-up-form a {
-    text-decoration: none;
-    color: #22577A;
-    font-size: 17px;
-  }
-  .sign-up-form a:hover {
-    text-decoration:underline;
-  }
-/* homepage buttons */
-  .guides-container .guide-button:hover {
-      background-color: #adf0bd; 
-      color: #22577A; 
-  }
-/*video styling */
-
-.video-text {
-  width:100%;
-}
-  #video-container {
-    display: flex;
-    max-width:100%;
-    width: 616px;
-    height: 346.5px;
-    align-items: center;
-    justify-content: center;
-    padding:10px 0px 10px 0px;
-    margin:10px auto;
-  }
-  #video-container iframe {
-       max-width: 100%;
-        width: 616px;
-        height: 346.5px;
-        border: 10px;
-        margin:10px auto;
-        position:absolute;
-        padding: 10px;
-  }
-#video-container2 {
-  display: flex;
-  max-width:100%;
-  width: 616px;
-  height: 346.5px;
-  align-items: center;
-  justify-content: center;
-  padding:10px 0px 10px 0px;
-  margin:10px auto;
-}
-#video-container2 iframe {
-     max-width: 100%;
-      width: 616px;
-      height: 346.5px;
-      border: 10px;
-      margin:10px auto;
-      position:absolute;
-      padding: 10px;
-}
-.video-guide {
-  text-align: center;
-}

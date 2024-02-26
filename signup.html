@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -22,11 +21,9 @@
     <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-
 <body>
   <div class="container">
      <h1>Finance First</h1>
-     
        <div class="signup-background">
         <!-- nav bar taken from w3schools https://www.w3schools.com/howto/howto_js_topnav_responsive.asp -->
         <div class="topnav" id="myTopnav">
@@ -36,14 +33,9 @@
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                 <i class="fa fa-bars"></i></a>
         </div>
-    
         <!-- end nav bar -->
-
-            
-        
-      <!-- Main content. Code modified from Code Chic: https://www.youtube.com/watch?v=T2r0HSc4UlA -->
-
-      <div class="sign-up-form">
+        <!-- Main content. Code modified from Code Chic: https://www.youtube.com/watch?v=T2r0HSc4UlA -->
+        <div class="sign-up-form">
          <h2>Subscribe here for the latest news:</h2>
          <p>Fill in the form to subscribe to the newsletter</p>
          <form action="thanks.html" method="GET" name="signupform" autocomplete="on">
@@ -52,45 +44,32 @@
              <input type="submit" value="Sign Up">
          </form> 
          <p><em>Don't forget</em>, you can view our recent resources <a href="resources.html" aria-label="click here to view our resources page">here</a></p>
+        </div>
       </div>
-     </div>
-    </div>
-      <br>
-            <!-- end of sign up form bar -->
-     <div class="footer">
-                <footer>
-                    <!-- Code taken from the Love Running tutorial -->
-                    <ul id="social-networks">
-                        <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"
-                                aria-label="Visit our Facebook page (opens in a new window)"><i
-                                    class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
-                      
-                            <!-- code modified from W3 schools: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_images_hackman -->
-                      
-                        <li><a href="https://www.twitter.com/" target="_blank" rel="noopener"
-                                aria-label="Visit our Twitter page (opens in a new window)"><i
-                                    class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
-                    </ul>
-                  <img src="https://media1.giphy.com/media/ODG034tmOF7O0IPLM7/giphy.gif?cid=6c09b952behkbygc0dfr46zmczl98o5i0ji96j94dr8swyxi&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=s"
-                    alt="money dropping into piggybank" style="width:120px;height:130px;">
-                    <p>Copyright © Finance First 2024</p>
-                    <p>Disclaimer: <em>This site is for educational purposes and is not financial advice.</em></p>
-                </footer>
-    
-      
-  
+  </div>
+  <br>
+  <!-- end of sign up form bar -->
+  <div class="footer">
+       <footer> <!-- Code taken from the Love Running tutorial -->
+          <ul id="social-networks">
+              <li><a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new window)"><iclass="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+              <li><a href="https://www.twitter.com/" target="_blank" rel="noopener" aria-label="Visit our Twitter page (opens in a new window)"><iclass="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+          </ul>
+          <!-- code modified from W3 schools: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_images_hackman -->
+          <img src="https://media1.giphy.com/media/ODG034tmOF7O0IPLM7/giphy.gif?cid=6c09b952behkbygc0dfr46zmczl98o5i0ji96j94dr8swyxi&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=s" alt="money dropping into piggybank" style="width:120px;height:130px;">
+          <p>Copyright © Finance First 2024</p>
+          <p>Disclaimer: <em>This site is for educational purposes and is not financial advice.</em></p>
+        </footer>
         <script>
-            function myFunction() {
-                var x = document.getElementById("myTopnav");
-                if (x.className === "topnav") {
-                    x.className += " responsive";
-                } else {
-                    x.className = "topnav";
-                }
+          function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+              x.className += " responsive";
+          } else {
+              x.className = "topnav";
             }
-
+          }
         </script>
   </div>
 </body>
-
 </html>
