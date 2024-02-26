@@ -79,6 +79,8 @@ I used various methods to test the accessibility of my site and the quality of m
 1. Lighthouse alerted me to the button background colour and text contrast not being accessible on hover. I amended the buttons so that when the hover was activated the button not only changed colour but the text also switched to contrast well with the lighter green.
 2. I added aria-labels to the navigation icons as Lighthouse flagged up that they were not accessible to screen readers.
 
+![Lighthouse](assets/images/lighthouse.png)
+
 **W3 CSS Validator**
 1. I had a missing curly brace in my code which I added in.
 
