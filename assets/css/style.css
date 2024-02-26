@@ -62,7 +62,6 @@ h2, h3, h4, p {
     text-align:center;
     color:#0e2536;
     max-width:100%;
-    width:300px;
     height:auto;  
 }
 #main-header {
@@ -197,49 +196,6 @@ h2, h3, h4, p {
 }
 .sign-up-form a:hover {
     text-decoration:underline;
-}
- }
-/*video styling resources page*/
-#video-container {
-    display: flex;
-    max-width:100%;
-    width: 616px;
-    height: 346.5px;
-    align-items: center;
-    justify-content: center;
-    padding:10px 0px 10px 0px;
-    margin:10px auto;
-}
-#video-container iframe {
-    max-width: 100%;      
-    width: 616px;
-    height: 346.5px;
-    border: 10px;
-    margin:10px auto;
-    position:absolute;
-    padding: 10px;
-}
-#video-container2 {
-    display: flex;
-    max-width:100%;
-    width: 616px;
-    height: 346.5px;
-    align-items: center;
-    justify-content: center;
-    padding:10px 0px 10px 0px;
-    margin:10px auto;
-}
-#video-container2 iframe {
-    max-width: 100%;
-    width: 616px;
-    height: 346.5px;
-    border: 10px;
-    margin:10px auto;
-    position:absolute;
-    padding: 10px;
-}
-.video-guide {
-    text-align: center;
 }
 /*Footer*/
 .footer {
