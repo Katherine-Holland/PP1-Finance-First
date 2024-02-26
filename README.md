@@ -46,9 +46,6 @@ I also allowed the user to hover over the sections which would then change colou
 ### Buttons
 I created two buttons on the 'Homepage' and a button on the 'Sign Up' page. The buttons change colour on hover and the text also switches colour. I feel visually this helps the user to navigate the site easily.
 
-### Videos
-I added two videos that explained the two financial products I had selected for this website- Junior ISAs and Junior SIPPs. I set the videos to mute which I felt was best practice and embedded them into the page, the links to YouTube also opened in a seperate window.
-
 ### Images
 I chose images that related to finance but with a child theme. A piggy bank as the hero image seemed an obvious and relatable choice. Stacking blocks were used to indicate compounding finance, an intention of a Junior SIPP and a seedling in a money pot to denote new growth and the start of a financial journey.
 
@@ -77,6 +74,8 @@ I used various methods to test the accessibility of my site and the quality of m
 1. An error was brought to my attention in the footer. I had added my GIF in the middle of my list, instead of after the list. I amended this to below the list items.
 2. I had missed out a /div on my sign up page which I added in.
 
+![HTMLValidator](assets/images/htmlvalidator.png)
+
 **Lighthouse**
 1. Lighthouse alerted me to the button background colour and text contrast not being accessible on hover. I amended the buttons so that when the hover was activated the button not only changed colour but the text also switched to contrast well with the lighter green.
 2. I added aria-labels to the navigation icons as Lighthouse flagged up that they were not accessible to screen readers.
@@ -85,6 +84,8 @@ I used various methods to test the accessibility of my site and the quality of m
 
 **W3 CSS Validator**
 1. I had a missing curly brace in my code which I added in.
+
+![CSS Validator](assets/images/cssvalidation.png)
 
 ## Future Features
 1. Ideally, I would create my own videos for the site using original content and branded with Finance First.
@@ -116,13 +117,6 @@ https://www.w3schools.com/html/tryit.asp?filename=tryhtml_links_button_element
 
 **Sign Up Form**
 https://www.youtube.com/watch?v=T2r0HSc4UlA
-
-**Video Credits**
-Thanks to:
-
-Which: https://www.youtube.com/watch?v=S-c3SsEFJcg
-
-The Retirement Cafe: https://www.youtube.com/watch?v=CR6XMcdZG4M&t=3s
 
 **Original footer GIF code:**
 https://www.w3schools.com/html/tryit.asp?filename=tryhtml_images_hackman
