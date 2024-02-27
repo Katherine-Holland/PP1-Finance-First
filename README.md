@@ -25,7 +25,7 @@ The wireframe was created using Balsamiq. I created a basic landing page design 
 ![Wireframe for Mobile](assets/images/wireframe.png)
 
 ### Colours
-I chose a cool colour palette to give a professional feel to the site. I used websites such as Hargreaves Lansdown https://www.hl.co.uk/ and Point 72 https://point72.com/ as my inspiration. The cool tones flow well together, allowing the reader to view light to dark as they scroll down the page and the blues are calming. Green is also a colour often used when denoting images money and contrasts well with blue. I feel the understated, consistent colour scheme alongside the content creates a website which feels trustworthy; an important consideration, especially when designing a site to convey financial information and encourage sign up. 
+I chose a cool colour palette to give a professional feel to the site. I used websites such as Hargreaves Lansdown https://www.hl.co.uk/ and Point 72 https://point72.com/ as my inspiration. The cool tones flow well together, allowing the reader to view light to dark as they scroll down the page and the blues are calming. Green is also a colour often used when denoting images of money and contrasts well with blue. I feel the understated, consistent colour scheme alongside the content creates a website which feels trustworthy; an important consideration, especially when designing a site to convey financial information and encourage sign up. 
 
 ![Colour palette](assets/images/palette.png)
 
